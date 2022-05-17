@@ -23,23 +23,23 @@ sections:
 - type: heading
   label: Others Page
 - type: document
-  path: exampleSite/content/about/_index.md
+  path: content/about/_index.md
   label: About
 - type: document
-  path: exampleSite/content/contact/_index.md
+  path: content/contact/_index.md
   label: Contact
 - type: document
-  path: exampleSite/content/privacy-policy/_index.md
+  path: content/privacy-policy/_index.md
   label: Privacy Policy
 - type: heading
   label: Configuration
 - type: directory
-  path: exampleSite
+  path: 
   label: Configuration
   create: all
   match: "*.toml"
   new_doc_ext: toml
-upload_dir: exampleSite/static/images
+upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
