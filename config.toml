@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/persian/examplesite/"
-title = "Persian"
+baseURL = "https://demo.gethugothemes.com/"
+title = "Megan Dewees"
 theme = "persian-hugo"
 languageName = "En"
 languageCode = "en-us"
