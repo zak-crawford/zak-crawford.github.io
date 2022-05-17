@@ -14,7 +14,7 @@ fields:
 - type: text
   name: video
   label: video
-  description: "Ex: https://www.youtube-nocookie.com/embed/3NeCmZOwP4w"
+  description: 'Ex: https://www.youtube-nocookie.com/embed/3NeCmZOwP4w'
 - type: list
   name: credits
   label: credits
@@ -26,3 +26,5 @@ fields:
 - type: list
   name: tags
   label: tags
+pages:
+- project/test-project.md
