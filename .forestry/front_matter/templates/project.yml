@@ -13,6 +13,7 @@ fields:
   label: image
 - type: text
   name: video
+  label: video
   description: "Ex: https://www.youtube-nocookie.com/embed/3NeCmZOwP4w"
 - type: list
   name: credits
