@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/"
+baseURL = "https://zak-crawford.github.io/"
 title = "Megan Dewees"
 theme = "persian-hugo"
 languageName = "En"
