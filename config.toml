@@ -1,32 +1,45 @@
-######################## default configuration ####################
 baseURL = "https://zak-crawford.github.io/"
-title = "Megan Dewees"
-theme = "persian-hugo"
-languageName = "En"
+disqusShortname = ""
+googleAnalytics = ""
 languageCode = "en-us"
-# post pagination
+languageName = "En"
 paginate = "5"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com# google analytics
-googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
-
-
-############################# output ##############################
-[outputs]
-home = ["HTML", "RSS", "json"]
-
-# render unsafe html
+theme = "persian-hugo"
+title = "Megan Dewees"
 [markup.goldmark.renderer]
 unsafe = true
-
-############################# Plugins ##############################
-# CSS Plugins
+[[menu.main]]
+name = "Contact"
+url = "contact/"
+weight = 5
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = 3
+[[menu.main]]
+name = "Demos"
+url = "reel/"
+weight = 2
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[outputs]
+home = ["HTML", "RSS", "json"]
+[params]
+author = "Megan Dewees"
+contact_form_action = "#"
+copyright = "Designed and Developed By [Zak Crawford](https://zakcrawford.com/)"
+description = "This is meta description"
+logo = "images/logo.png"
+search = true
+[params.cookies]
+enable = true
+expire_days = 365
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
-
-# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -37,54 +50,6 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
-
-
-################################ menu ##################################
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Demos"
-url = "reel/"
-weight = 2
-
-[[menu.main]]
-name = "About"
-url = "about/"
-weight = 3
-
-[[menu.main]]
-name = "Stunts"
-url = "categories/stunts/"
-weight = 4
-
-[[menu.main]]
-name = "Contact"
-url = "contact/"
-weight = 5
-
-
-#################### default parameters ################################
-[params]
-logo = "images/logo.png"
-# Meta data
-description = "This is meta description"
-author = "Megan Dewees"
-# search  
-search = true
-# contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
-# copyright
-copyright = "Designed and Developed By [Zak Crawford](https://zakcrawford.com/)"
-
-# Preloader
 [params.preloader]
 enable = true
-preloader = "" # use jpg, png, svg or gif format.
-
-# cookies
-[params.cookies]
-enable = true
-expire_days = 365
+preloader = ""
