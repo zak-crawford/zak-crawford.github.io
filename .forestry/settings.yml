@@ -7,10 +7,10 @@ sections:
 - type: heading
   label: project
 - type: directory
-  path: project
+  path: content/project
   label: project
   create: documents
-  match: "content/**/*"
+  match: "**/*"
   templates:
   - project
 - type: heading
