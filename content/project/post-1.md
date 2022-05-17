@@ -5,7 +5,7 @@ image: "images/project/post-1.jpg"
 author: "John Doe" # use capitalize
 description: "This is meta description."
 categories: ["Green Tree"]
-tags: ["green", "tree"]
+tags: ["green", "stunts"]
 video: "https://www.youtube-nocookie.com/embed/3NeCmZOwP4w"
 draft: false
 ---
