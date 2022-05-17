@@ -26,5 +26,3 @@ fields:
 - type: list
   name: tags
   label: tags
-pages:
-- project/test-project.md
