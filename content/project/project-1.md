@@ -8,7 +8,6 @@ categories:
 - Green Tree
 tags:
 - stunts
-- tree
 video: https://www.youtube-nocookie.com/embed/3NeCmZOwP4w
 
 ---
