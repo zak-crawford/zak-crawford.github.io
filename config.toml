@@ -1,68 +1,90 @@
-baseurl = "https://example.org/"
-title = "Creative portfolio"
-theme = "hugo-creative-portfolio-theme"
+######################## default configuration ####################
+baseURL = "https://demo.gethugothemes.com/persian/examplesite/"
+title = "Persian"
+theme = "persian-hugo"
+languageName = "En"
 languageCode = "en-us"
-# Enable comments by entering your Disqus shortname
-disqusShortname = ""
-# Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+# post pagination
+paginate = "5"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com# google analytics
+googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 
+
+############################# output ##############################
+[outputs]
+home = ["HTML", "RSS", "json"]
+
+# render unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+
+
+################################ menu ##################################
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[menu.main]]
+name = "Category"
+url = "categories/nature/"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "contact/"
+weight = 4
+
+[[menu.main]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 5
+
+
+#################### default parameters ################################
 [params]
-  # Style options: default (pink), blue, green, pink, red, sea, violet
-  # Use custom.css for your custom styling
-  style = "default"
-  description = "Describe your website"
-  copyright = "&copy;2016 Your name or company"
-  sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
-  ]
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
-  email = "you@yoursite.com"
+logo = "images/logo.png"
+# Meta data
+description = "This is meta description"
+author = "Megan Dewees"
+# search  
+search = true
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# copyright
+copyright = "Designed and Developed By [Zak Crawford](https://zakcrawford.com/)"
 
-    # Optional Matomo analytics (formerly piwik)
-      # [params.analytics.matomo]
-      #  URL = "https://stats.example.com"
-      #  ID = "42"
-      #  # Track all subdomains with "*.example.com" (Optional)
-      #  domain = "www.example.com"
-      #  # Optional integrity check hash
-      #  hash = ""
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
 
-  # Nav links in the side bar
-  [[params.navlinks]]
-  name = "Home"
-  url = "portfolio/"
-  home = true
-
-  [[params.navlinks]]
-  name = "About"
-  url = "about/"
-
-  [[params.navlinks]]
-  name = "Get in touch"
-  url = "contact/"
-
-  [params.social]
-  facebook      = "full page or profile url in facebook"
-  googleplus    = "full profile url in googleplus"
-  email         = "email@example.com"
-  twitter       = "full profile url in twitter"
-  linkedin      = "full profile url in linkedin"
-  stackoverflow = "full profile url in stackoverflow"
-  instagram     = "full profile url in instagram"
-  github        = "full profile url in github"
-  gitlab        = "full profile url in gitlab"
-  youtube       = "full profile url in youtube"
-  whatsapp      = "wa.me service link"
+# cookies
+[params.cookies]
+enable = true
+expire_days = 365
