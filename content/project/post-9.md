@@ -1,11 +1,11 @@
 ---
-title: "Why The Giving Tree Makes You Cry"
+title: "Writing Through The Pain"
 date: 2019-05-12T12:14:34+06:00
-image: "images/post/post-5.jpg"
+image: "images/project/post-4.jpg"
 author: "John Doe" # use capitalize
 description: "This is meta description."
-categories: ["Tree"]
-tags: ["tree", "nice"]
+categories: ["Green Tree"]
+tags: ["book", "memo"]
 draft: false
 ---
 

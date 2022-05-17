@@ -1,12 +1,11 @@
 ---
-title: "Hola Pollo"
-date: 2020-01-12T12:14:34+06:00
-image: "images/post/post-2.jpg"
+title: "Why The Giving Tree Makes You Cry"
+date: 2019-05-12T12:14:34+06:00
+image: "images/project/post-5.jpg"
 author: "John Doe" # use capitalize
 description: "This is meta description."
-categories: ["nature"]
-tags: ["thumb", "video", "top"]
-video: "https://www.youtube-nocookie.com/embed/GUw9IpNEHM8"
+categories: ["Tree"]
+tags: ["tree", "nice"]
 draft: false
 ---
 

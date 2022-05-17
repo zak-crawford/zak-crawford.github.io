@@ -7,19 +7,19 @@ sections:
 - type: heading
   label: Author
 - type: directory
-  path: exampleSite/content/author
+  path: author
   label: Authors
   create: documents
   match: "**/*"
 - type: heading
-  label: Blog Post
+  label: project
 - type: directory
-  path: exampleSite/content/post
-  label: Post
+  path: project
+  label: project
   create: documents
   match: "**/*"
   templates:
-  - post
+  - project
 - type: heading
   label: Others Page
 - type: document

@@ -1,12 +1,12 @@
 ---
-title: "Post One"
-date: 2020-05-12T12:14:34+06:00
-image: "images/post/post-1.jpg"
+title: "Hola Pollo"
+date: 2020-01-12T12:14:34+06:00
+image: "images/project/post-2.jpg"
 author: "John Doe" # use capitalize
 description: "This is meta description."
-categories: ["Green Tree"]
-tags: ["green", "tree"]
-video: "https://www.youtube-nocookie.com/embed/3NeCmZOwP4w"
+categories: ["nature"]
+tags: ["thumb", "video", "top"]
+video: "https://www.youtube-nocookie.com/embed/GUw9IpNEHM8"
 draft: false
 ---
 

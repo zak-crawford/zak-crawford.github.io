@@ -1,13 +1,12 @@
 ---
-title: "Writing Through The Pain"
-date: 2019-05-12T12:14:34+06:00
-image: "images/post/post-4.jpg"
+title: "Networks and the Nature of the Firm"
+date: 2020-01-12T12:14:34+06:00
+image: "images/project/post-6.jpg"
 author: "John Doe" # use capitalize
 description: "This is meta description."
-categories: ["writing"]
-tags: ["book", "memo"]
+categories: ["nature"]
+tags: ["thumb", "video", "top"]
 draft: false
-youtube_url: https://www.youtube.com/watch?v=dESEV-QqT5k
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
@@ -36,7 +35,7 @@ consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porr
 ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
 labore et dolore magnam aliquam quaerat voluptatem.
 
-Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+> Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
