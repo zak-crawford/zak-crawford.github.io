@@ -12,16 +12,16 @@ fields:
   name: image
   label: image
 - type: text
-  name: author
-  label: author
-  description: 'Ex: John Doe'
+  name: video
+  description: 'Ex: https://www.youtube-nocookie.com/embed/3NeCmZOwP4w'
+- type: list
+  name: credits
+  label: credits
+  description: '["Alfie the Annoying", "Sam"]'
 - type: text
   name: description
   label: description
   description: this is meta description
-- type: list
-  name: categories
-  label: categories
 - type: list
   name: tags
   label: tags

@@ -5,13 +5,6 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Author
-- type: directory
-  path: author
-  label: Authors
-  create: documents
-  match: "**/*"
-- type: heading
   label: project
 - type: directory
   path: project
@@ -28,9 +21,6 @@ sections:
 - type: document
   path: content/contact/_index.md
   label: Contact
-- type: document
-  path: content/privacy-policy/_index.md
-  label: Privacy Policy
 - type: heading
   label: Configuration
 - type: directory
